@@ -15,7 +15,8 @@ let package = Package(
                 intent: .custom(
                     verb: "create-directory",
                     description: "Create a directory"
-                )
+                ),
+                permissions: [.writeToPackageDirectory(reason: "To create a directory")]
             )
         )
     ]
