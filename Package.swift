@@ -14,7 +14,7 @@ let package = Package(
             capability: .command(
                 intent: .custom(
                     verb: "create-directory",
-                    description: "Create a directpry"
+                    description: "Create a directory"
                 )
             )
         )
